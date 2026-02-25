@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You</title>
+
+  <!-- Pixel Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="phone" id="phone">
+
+      <!-- Bear -->
+      <img id="bear" class="bear" src="images/sad-bear.png" alt="bear">
+
+      <!-- Window image -->
+      <img id="window" class="window-img" src="images/window.jpg" alt="window">
+
+      <!-- Text inside window -->
+      <div class="text" id="text"></div>
+
+      <!-- Main button -->
+      <img id="mainBtn" class="main-btn" alt="button">
+
+      <!-- Yes / No buttons -->
+      <div class="choice-buttons" id="choices">
+        <img src="images/yes-button.png" onclick="yes()" alt="yes">
+        <img src="images/no-button.png" onclick="no()" alt="no">
+      </div>
+
+      <!-- Top text (YES ending only) -->
+      <div class="top-text" id="topText"></div>
+
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>

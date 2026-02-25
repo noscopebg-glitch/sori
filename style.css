@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Mobile frame */
+.wrapper {
+  height: 100vh;
+  max-height: 700px;
+  aspect-ratio: 9 / 16;
+}
+
+.phone {
+  width: 100%;
+  height: 100%;
+  max-width: 390px;
+  background: url("images/main-bg.jpg") center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Bear */
+.bear {
+  width: 55%;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+}
+
+/* Window image */
+.window-img {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 88%;
+  height: auto;
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* Text inside window */
+.text {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 28%;
+  overflow-y: auto;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: black;
+  text-align: center;
+  line-height: 1.6;
+  z-index: 6;
+}
+
+/* Main button */
+.main-btn {
+  width: 45%;
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 6;
+}
+
+/* Choice buttons */
+.choice-buttons {
+  display: none;
+}
+
+.choice-buttons img {
+  width: 30%;
+  position: absolute;
+  bottom: 6%;
+  cursor: pointer;
+  z-index: 6;
+}
+
+.choice-buttons img:first-child {
+  left: 8%;
+}
+
+.choice-buttons img:last-child {
+  right: 8%;
+}
+
+/* YES ending text */
+.top-text {
+  position: absolute;
+  top: 6%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+  display: none;
+  z-index: 6;
+}
