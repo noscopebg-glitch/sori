@@ -5,12 +5,12 @@ const pages = [
     button: "images/hmm-button.png"
   },
   {
-    text: "kuch dino se im getting angry har subha and making you suffer cuz of it and its really my fault by not realising that despite ala your still trying. sometimes i just see your faults only and i js react accordingly not realising youre ina bad condition too and one more thing becuz i dont realise this kavi kavi is ki (and im not giving a bahana ik its my fault) every time im concern about you, u js reassures that youre fine and i do realise ur not but thats your strenght and thats js makes me belive that youre such a strong girl and cuz of that i forgot youre still a lil babbyy, my babbyy ( im referring to aj when i wasnt concerned about your leg pain).",
+    text: "kuch dino se im getting angry har subha and making you suffer cuz of it and its really my fault by not realising that despite all your struggles your still trying. sometimes i just see your faults only and i js react accordingly not realising youre in a bad condition too and one more thing becuz i dont realise this kavi kavi is ki (and im not giving a bahana ik its my fault) every time im concern about you, u js reassures that youre fine and i do realise ur not but thats your strenght and thats js makes me belive that youre such a strong girl and cuz of that i forgot youre still a lil babbyy, my babbyy ( im referring to aj when i wasnt concerned about your leg pain).",
     bear: "images/hurt-bear.png",
     button: "images/acha-button.png"
   },
   {
-    text: "and you have to realise too na ki why im getting angry, ive told you several baar i dont like getting left randomly or being ignored ik those were not your intentions but still i cant read your mind hamesha na baby. remember when tum bhaiya se baat krri thi and didnt know about that but tumhe pareshaan bhi nhi krna tha so i just let go but next subha you kinda teased me about ki 'tum call nhi kr skte the usne kaise kiya' then i kinda snapped about it then tum troll krne lggyi and hasne lgg gyi to bolo gussa nhi ayega pearlo then it made me more mad then maine boldiya tha gusse me then fir tum gussa hgyi. and when im in that state every problem we have rn, the past, things im uncomfortabe with and every thing js remind hojati dimag me and i hate it i js wish koi lobotomy dede mujhe. we cant keep this behaviour na and i can see your really getting affected by it. ",
+    text: "and you have to realise too na ki why im getting angry, ive told you several baar i dont like getting left randomly or being ignored ik those were not your intentions but still you js have to say 1 line, i cant read your mind hamesha na baby. remember when tum bhaiya se baat krri thi and didnt know about that but tumhe pareshaan bhi nhi krna tha so i just let go but next subha you kinda teased me about ki 'tum call nhi kr skte the usne kaise kiya' then i kinda snapped about it then tum troll krne lggyi and hasne lgg gyi to bolo gussa nhi ayega pearlo then it made me more mad then maine boldiya tha gusse me then fir tum gussa hgyi. and when im in that state every problem we have rn, the past, things im uncomfortabe with and every thing js remind hojati dimag me and i hate it i js wish koi lobotomy dede mujhe. we cant keep this behaviour na and i can see your really getting affected by it. ",
     bear: "images/angry-bear.png",
     button: "images/huh-button.png"
   },
@@ -77,5 +77,6 @@ function no() {
   bear.style.display = "none";
   topText.style.display = "none";
 }
+
 
 loadPage();
